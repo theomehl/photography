@@ -16,3 +16,14 @@ h2:after {
 h1, h2 {
 	font-weight: 500;
 }
+
+a.error {
+	color: #aaa;
+	text-decoration: none;
+	border-bottom: 0px solid #aaa;
+	transition: all 0.3s;
+}
+a.error:hover {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
