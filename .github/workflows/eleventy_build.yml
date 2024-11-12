@@ -2,7 +2,7 @@ name: Eleventy Build
 on:
   push:
     branches:
-      - main
+      - master
   schedule: 
     - cron: "0 11 * * *"
 
