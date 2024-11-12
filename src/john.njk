@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+title: John's Photos
+description: John's favorite photos. 
+---
+
+<main class="container container-xl flow">
+    <h1 class="font-xl photo-header">{{title}}</h1>
+    <ul class="photo-grid">
+        {% for john in collections.john | reverse %}    
+            <li>
+                <a href="{{john.url}}">
+                    <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" width="{{john.data.width}}" height="{{john.data.height}}" eleventy:widths="667">
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</main>
+<footer class="container container-xl flow">
+    <hr>
+    <p class="font-sm">a project of <a href="https://tedmehl.me">tedmehl.me</a></p>
+</footer>

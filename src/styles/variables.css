@@ -1,0 +1,65 @@
+:root {
+
+    /* Define base colors */
+    --gray-text: #37363B;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9da4b0;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+    --blue-100: hsl(215, 36%, 98%);
+    --blue-300: hsl(215, 36%, 59%);
+    --blue-700: hsl(215, 56%, 29%);
+    --blue-text: hsl(215, 56%, 19%);
+
+    --base-text: var(--blue-text);
+
+
+    /* Define fluid type font sizes */
+    --text-sm: clamp(0.94rem, 0.92rem + 0.11vw, 1.00rem);
+    --text-base: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+    --text-md: clamp(1.41rem, calc(1.35rem + 0.27vw), 1.56rem);
+    --text-lg: clamp(1.76rem, calc(1.69rem + 0.34vw), 1.95rem);
+    --text-xl: clamp(2.20rem, calc(2.11rem + 0.42vw), 2.44rem);
+    --text-2xl: clamp(2.75rem, calc(2.64rem + 0.53vw), 3.05rem);
+    --text-3xl: clamp(3.43rem, calc(3.30rem + 0.66vw), 3.82rem);
+    --text-4xl: clamp(4.29rem, calc(4.13rem + 0.83vw), 4.77rem);
+
+    /* Define font families */
+    --font-base: Figtree, sans-serif; 
+
+
+    /* Header logo Variables */
+
+    --header-logo-spacing: 2rem;
+    --header-logo-bg: var(--link-text);
+
+    /* Nested Variables */
+
+    --border-accent: var(--blue-300);
+    --border-width: 3px;
+
+    --heading-color: var(--gray-500);
+
+    --link-text: var(--blue-text);
+
+}
+
+
+/* Utilities */
+
+.font-xl {
+    font-size: var(--text-xl);
+}
+
+.font-sm {
+    font-size: var(--text-sm);
+}
+
+.text-center {
+    text-align: center;
+}

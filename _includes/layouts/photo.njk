@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+---
+
+<main class="container container-xl flow">
+    <div class="image-wrapper flow">
+        {# <img src="{{image}}" alt="{{alt}}" width="{{width}}" height="{{height}}">         #}
+        <img src="/files/{{imageBase}}/{{imageBase}}_2000.jpg" alt="{{alt}}" width="{{width}}" height="{{height}}" loading="eager" decoding="sync">
+    </div>
+
+    <h1 class="photo-title">{{title}}</h1>
+    {% if description %}
+        <p><small>{{description}}</small></p>    
+    {% endif %}
+    {% if imageDate %}
+        <p class="photo-details">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+                <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
+            </svg> {{imageDate}}
+        </p>
+    {% endif %}
+    {% if location %}
+        <p class="photo-details"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+          </svg> {{location}}</p>
+    {% endif %}
+
+    {% if camera %}
+        <p class="photo-details"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M12 9a3.75 3.75 0 100 7.5A3.75 3.75 0 0012 9z" />
+            <path fill-rule="evenodd" d="M9.344 3.071a49.52 49.52 0 015.312 0c.967.052 1.83.585 2.332 1.39l.821 1.317c.24.383.645.643 1.11.71.386.054.77.113 1.152.177 1.432.239 2.429 1.493 2.429 2.909V18a3 3 0 01-3 3h-15a3 3 0 01-3-3V9.574c0-1.416.997-2.67 2.429-2.909.382-.064.766-.123 1.151-.178a1.56 1.56 0 001.11-.71l.822-1.315a2.942 2.942 0 012.332-1.39zM6.75 12.75a5.25 5.25 0 1110.5 0 5.25 5.25 0 01-10.5 0zm12-1.5a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+          </svg> {{camera}}</p>
+    {% endif %}
+
+    {% if film %}
+        <p class="photo-details">
+            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M13.118 18.715v1.613c0 .736-.598 1.334-1.334 1.334h-8.45A1.335 1.335 0 0 1 2 20.328V5.609c0-.736.598-1.334 1.334-1.334h1.243v-.61c0-.732.595-1.327 1.327-1.327H9.28c.732 0 1.327.595 1.327 1.327v.61h1.176c.736 0 1.334.598 1.334 1.334v.684h7.669c.67 0 1.213.543 1.213 1.213v5.157c0 .67-.544 1.213-1.213 1.213-2.035 0-2.428 1.744-2.428 3.779a1.06 1.06 0 0 1-1.06 1.06h-4.181Zm2.104-3.486c0-.245-.2-.445-.445-.445h-.966c-.246 0-.445.2-.445.445v.966c0 .246.2.445.445.445h.966c.246 0 .445-.2.445-.445v-.966Zm0-5.79c0-.245-.2-.445-.445-.445h-.966c-.246 0-.445.2-.445.445v.966c0 .246.2.445.445.445h.966c.246 0 .445-.2.445-.445v-.966Zm3.86 0c0-.245-.2-.445-.445-.445h-.966c-.246 0-.445.2-.445.445v.966c0 .246.2.445.445.445h.966c.246 0 .445-.2.445-.445v-.966Z"/></svg> {{film}}</p>
+    {% endif %}
+   
+    {{content | safe}}
+    <hr>
+    {% if tags.includes("john") %}
+        {% include "john-nav.njk" %}
+    {% elseif tags.includes("ted") %}
+        {% include "ted-nav.njk" %}
+    {% endif %}
+        
+</main>

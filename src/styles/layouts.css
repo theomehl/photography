@@ -1,0 +1,41 @@
+.container {
+    max-width: min(60ch, 100% - 4rem);
+    margin-inline: auto;
+}
+
+.container-xl {
+    max-width: min(125ch, 100% - 4rem);
+}
+
+/* Photo Grid styles */
+
+.photo-grid {
+    --photo-grid-spacing: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--photo-grid-spacing);
+}
+
+.photo-grid li {
+    block-size: auto;
+}
+
+ul.photo-grid {
+
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+@media all and (min-width: 640px) {
+    .photo-grid li {
+        block-size: clamp(200px, calc(0.5rem + 25vw), 450px);
+    }
+
+    .photo-grid img {
+        inline-size: auto;
+        block-size: 100%;
+    }
+}
+

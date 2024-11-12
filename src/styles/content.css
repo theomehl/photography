@@ -1,0 +1,70 @@
+.flow > * + * {
+    margin-top: var(--flow-space, 1em);
+}
+
+p {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.post-header {
+    margin-bottom: 3rem;
+    --flow-space: 0.75em;
+}
+
+.photo-header {
+    margin-top: 1em;
+}
+
+.photo-title {
+    font-size: var(--text-md);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.photo-details {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-inline-end: 1rem;
+}
+
+blockquote, .callout {
+    padding: 1rem;
+    border-left: var(--border-width) solid var(--border-accent);
+    background-color: var(--blue-100);
+}
+
+blockquote > * + * {
+    margin-top: var(--flow-space, 1em);
+}
+
+summary {
+    padding: 0.5rem 1rem;
+}
+
+.details-wrapper {
+    padding: 1rem;
+    background-color: var(--blue-100);
+}
+
+.image-wrapper {
+    margin-block-start: 2rem;
+}
+
+.image-wrapper img {
+    /* inline-size: auto; */
+    max-inline-size: 100%;
+    block-size: auto;
+    max-block-size: 80vh;
+    object-fit: contain;
+    object-position: left;
+}
+
+/* Responsive image styles */
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    vertical-align: bottom;
+  }

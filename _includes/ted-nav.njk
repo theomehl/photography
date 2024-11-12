@@ -1,0 +1,17 @@
+<nav>
+    <ul class="next-previous-nav">
+
+        {% if collections.ted %}
+        {% set nextPhoto = collections.ted | getNextCollectionItem %}
+        {% set previousPhoto = collections.ted | getPreviousCollectionItem %}
+            {% if previousPhoto %}            
+                <li><a href="{{ previousPhoto.url }}">&larr; Previous Photo</a></li>
+            {% endif %}
+            {% if nextPhoto %}
+                <li><a href="{{ nextPhoto.url }}">Next Photo &rarr;</a></li>
+            {% endif %}
+        {% endif %}
+
+        <li><a href="/teds-photos" class="next-link">All Photos &uarr;</a></li>
+    </ul>
+</nav>

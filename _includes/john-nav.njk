@@ -1,0 +1,19 @@
+<nav>
+    <ul class="next-previous-nav">
+
+        {% if collections.john %}
+        {% set nextPhoto = collections.john | getNextCollectionItem %}
+        {% set previousPhoto = collections.john | getPreviousCollectionItem %}
+            {% if nextPhoto %}
+                <li><a href="{{ nextPhoto.url }}">&larr; Previous Photo</a></li>
+            {% endif %}        
+            {% if previousPhoto %}            
+                <li><a href="{{ previousPhoto.url }}">Next Photo &rarr;</a></li>
+            {% endif %}
+
+        {% endif %}
+
+        <li><a href="/john" class="next-link">All Photos &uarr;</a></li>
+    </ul>
+    <p class="font-sm">a project of <a href="https://tedmehl.me">tedmehl.me</a></p>
+</nav>

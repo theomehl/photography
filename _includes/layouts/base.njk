@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ metaTitle if metaTitle else title }} | photos.tedmehl.me</title>
+    <meta name="description" content="{{metaDescription if metaDescription else description}}">
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin>
+    {% set css %}
+        {% include "src/styles/index.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    </style>
+    <link rel="icon" href="/favicon.png">
+</head>
+<body>
+    {{content | safe}}
+</body>
+</html>
