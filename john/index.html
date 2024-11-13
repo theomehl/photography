@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John&#39;s Photos | photos.tedmehl.me</title>
+    <meta name="description" content="John&#39;s favorite photos.">
+    <meta name="generator" content="Eleventy v3.0.0">
+
+    <link rel="preload" as="font" href="/fonts/Figtree.woff2" crossorigin="">
+    <link rel="preload" as="font" href="/fonts/Figtree-Italic.woff2" crossorigin="">
+    
+    <style>
+    @font-face{font-family:Figtree;src:url(/fonts/Figtree.woff2) format("woff2");font-style:normal;font-weight:300 900;font-display:swap}@font-face{font-family:Figtree;src:url(/fonts/Figtree-Italic.woff2) format("woff2");font-style:italic;font-weight:300 900;font-display:swap}:root{--gray-text:#37363B;--gray-100:#f3f4f6;--gray-200:#e5e7eb;--gray-300:#d1d5db;--gray-400:#9da4b0;--gray-500:#6b7280;--gray-600:#4b5563;--gray-700:#374151;--gray-800:#1f2937;--gray-900:#111827;--blue-100:hsl(215, 36%, 98%);--blue-300:hsl(215, 36%, 59%);--blue-700:hsl(215, 56%, 29%);--blue-text:hsl(215, 56%, 19%);--base-text:var(--blue-text);--text-sm:clamp(0.94rem, 0.92rem + 0.11vw, 1.00rem);--text-base:clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);--text-md:clamp(1.41rem, calc(1.35rem + 0.27vw), 1.56rem);--text-lg:clamp(1.76rem, calc(1.69rem + 0.34vw), 1.95rem);--text-xl:clamp(2.20rem, calc(2.11rem + 0.42vw), 2.44rem);--text-2xl:clamp(2.75rem, calc(2.64rem + 0.53vw), 3.05rem);--text-3xl:clamp(3.43rem, calc(3.30rem + 0.66vw), 3.82rem);--text-4xl:clamp(4.29rem, calc(4.13rem + 0.83vw), 4.77rem);--font-base:Figtree,sans-serif;--header-logo-spacing:2rem;--header-logo-bg:var(--link-text);--border-accent:var(--blue-300);--border-width:3px;--heading-color:var(--gray-500);--link-text:var(--blue-text)}.font-xl{font-size:var(--text-xl)}.font-sm{font-size:var(--text-sm)}.text-center{text-align:center}html{font-family:var(--font-base);color:var(--base-text)}*,::after,::before{box-sizing:border-box}body{line-height:1.5;padding-bottom:2rem;font-size:var(--text-base)}blockquote,body,dd,dl,figure,h1,h2,h3,h4,p{margin:0}h1,h2,h3,h4{font-weight:900;line-height:1.1;text-wrap:balance;--flow-space:1.25em}h1{font-size:var(--text-2xl);line-height:.9}a{color:var(--link-text)}hr{border:0;border-top:1px solid var(--border-accent)}footer{color:var(--gray-600);margin-top:6rem}footer>hr{border-top:1px solid var(--gray-400)}footer a{color:var(--gray-600)}.skip-link{clip:rect(0,0,0,0);background-color:var(--gray-200);height:1px;width:1px;overflow:hidden;position:absolute}.skip-link:focus{clip:unset;padding:1rem;height:auto;width:auto;position:fixed}.nav-list{font-weight:700;display:flex;justify-content:space-between;align-items:center;padding:2rem 0}.nav-list>ul{display:flex;gap:1rem;margin:0;list-style:none}.next-previous-nav{font-size:smaller;list-style-type:none;padding-left:0;display:flex;flex-wrap:wrap;gap:1rem}.header-logo-wrapper{text-decoration:none;font-size:1.5rem;font-weight:900;display:flex;position:relative;--header-logo-first-color:#fff}.header-logo-wrapper:focus,.header-logo-wrapper:hover{--header-logo-first-color:var(--link-text);--header-logo-second-color:#fff}.header-logo-wrapper::before{content:'';height:var(--header-logo-spacing);width:var(--header-logo-spacing);background-color:var(--header-logo-bg);position:absolute;z-index:-1;transition:transform .1s ease-out}.header-logo-wrapper:focus::before,.header-logo-wrapper:hover::before{transform:translateX(var(--header-logo-spacing))}.first-initial,.second-initial{display:flex;justify-content:center;align-items:center;height:var(--header-logo-spacing);width:var(--header-logo-spacing);transition:color .1s ease-out}.first-initial{color:var(--header-logo-first-color)}.second-initial{color:var(--header-logo-second-color)}.blog-list{padding-left:0;padding-top:2rem}.blog-entry-date{font-weight:600;font-size:var(--text-base)}.home-subheading{font-size:var(--text-base)}.container{max-width:min(60ch,100% - 4rem);margin-inline:auto}.container-xl{max-width:min(125ch,100% - 4rem)}.photo-grid{--photo-grid-spacing:1rem;display:flex;flex-wrap:wrap;gap:var(--photo-grid-spacing)}.photo-grid li{block-size:auto}ul.photo-grid{list-style-type:none;padding-left:0}@media all and (min-width:640px){.photo-grid li{block-size:clamp(200px,calc(0.5rem + 25vw),450px)}.photo-grid img{inline-size:auto;block-size:100%}}.flow>*+*{margin-top:var(--flow-space,1em)}p{overflow-wrap:break-word;hyphens:auto}.post-header{margin-bottom:3rem;--flow-space:0.75em}.photo-header{margin-top:1em}.photo-title{font-size:var(--text-md);text-transform:uppercase;letter-spacing:1px}.photo-details{display:inline-flex;align-items:center;gap:.5rem;margin-inline-end:1rem}.callout,blockquote{padding:1rem;border-left:var(--border-width) solid var(--border-accent);background-color:var(--blue-100)}blockquote>*+*{margin-top:var(--flow-space,1em)}summary{padding:.5rem 1rem}.details-wrapper{padding:1rem;background-color:var(--blue-100)}.image-wrapper{margin-block-start:2rem}.image-wrapper img{max-inline-size:100%;block-size:auto;max-block-size:80vh;object-fit:contain;object-position:left}img{max-inline-size:100%;block-size:auto;vertical-align:bottom}
+    </style>
+    <link rel="icon" href="/favicon.png">
+</head>
+<body>
+    
+<main class="container container-xl flow">
+    <h1 class="font-xl photo-header">John&#39;s Photos</h1>
+    <ul class="photo-grid">
+            
+            <li>
+                <a href="/photo/sunday-bbq/">
+                    <picture><source type="image/avif" srcset="/img/mlnC1MECXx-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/mlnC1MECXx-667.jpeg" alt="Crowds of people grilling near the beach on a Sunday afternoon." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/foggy-son-of-man-be-free/">
+                    <picture><source type="image/avif" srcset="/img/z9UducB7yY-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/z9UducB7yY-667.jpeg" alt="Close up of the Son of Man Be Free statue with Weller tower faintly visible in the morning fog." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/bus-stop/">
+                    <picture><source type="image/avif" srcset="/img/9v1C8hixho-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/9v1C8hixho-667.jpeg" alt="A woman waiting at a bus stop in front of a stone wall with vines and trees growing from it." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/rice-terraces/">
+                    <picture><source type="image/avif" srcset="/img/5kdsV49gwJ-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/5kdsV49gwJ-667.jpeg" alt="Rice terraces in rural China." width="667" height="500"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/mia-village-choir/">
+                    <picture><source type="image/avif" srcset="/img/yHI63v3pZt-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/yHI63v3pZt-667.jpeg" alt="A group of women singing in the local village choir, holding music folders in front of them." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/kunming-restaurant/">
+                    <picture><source type="image/avif" srcset="/img/h8hy3RCaSK-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/h8hy3RCaSK-667.jpeg" alt="A restaurant with a square interior main floor with a balcony surrounding it on all sides." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/st-johns-cathedral/">
+                    <picture><source type="image/avif" srcset="/img/YdWI4D-pKR-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/YdWI4D-pKR-667.jpeg" alt="Inside St. John&#39;s Cathedral, with a few people sitting quietly in the pews." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/double-decker-tram/">
+                    <picture><source type="image/avif" srcset="/img/p06zpIcCJ5-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/p06zpIcCJ5-667.jpeg" alt="A double decker tram winding through the streets of downtown Hong Kong." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/rice-field/">
+                    <picture><source type="image/avif" srcset="/img/sO9VWXmLX2-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/sO9VWXmLX2-667.jpeg" alt="A bicycle sitting on a pathway between two rice paddy fields in Cambodia." width="667" height="500"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/ruins-of-st-pauls/">
+                    <picture><source type="image/avif" srcset="/img/4aAAgJZkE3-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/4aAAgJZkE3-667.jpeg" alt="Front steps and facade of St. Paul&#39;s Cathedral in Macau." width="667" height="437"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/igazu-falls/">
+                    <picture><source type="image/avif" srcset="/img/sMYbR0enMD-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/sMYbR0enMD-667.jpeg" alt="Numerous waterfalls with a rainbow appearing in the center of it all." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/chicago-lake-liquors/">
+                    <picture><source type="image/avif" srcset="/img/MmkYGADOhC-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/MmkYGADOhC-667.jpeg" alt="Chicago Lake Liquors store with flags topping the building." width="667" height="500"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/badlands/">
+                    <picture><source type="image/avif" srcset="/img/QNnv_MlfUK-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/QNnv_MlfUK-667.jpeg" alt="Badlands in South Dakota" width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/repulse-bay-beach/">
+                    <picture><source type="image/avif" srcset="/img/Fit04xXOfM-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/Fit04xXOfM-667.jpeg" alt="Repulse Bay with heavy cloud cover on the mountain behind." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/eads-bridge/">
+                    <picture><source type="image/avif" srcset="/img/C_ONNVeSt4-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/C_ONNVeSt4-667.jpeg" alt="Looking at Eads Bridge from the St. Louis Riverfront" width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/beijing-summer-palace/">
+                    <picture><source type="image/avif" srcset="/img/XgC07SVQ5Y-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/XgC07SVQ5Y-667.jpeg" alt="Looking at the Tower of Buddhist Incense through the trees at the Summer Palace in Beijing." width="667" height="889"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/american-club/">
+                    <picture><source type="image/avif" srcset="/img/MYClUvEuHR-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/MYClUvEuHR-667.jpeg" alt="A view overlooking Tai Tam Bay with the American Club in the foreground." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/victoria-harbor/">
+                    <picture><source type="image/avif" srcset="/img/UZqdplcNOA-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/UZqdplcNOA-667.jpeg" alt="A junk boat sailing through Victoria Harbor, skyscrapers and residential buildings in the background." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/winter-son-of-man-be-free/">
+                    <picture><source type="image/avif" srcset="/img/q0WCZsGm7_-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/q0WCZsGm7_-667.jpeg" alt="Snow falling on the quad with the Son of Man Be Free statue at the center." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/open-market/">
+                    <picture><source type="image/avif" srcset="/img/Tw3rJ3d_Lt-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/Tw3rJ3d_Lt-667.jpeg" alt="A man carrying a basket of bottles on his head through a busy marketplace." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/abandoned-gas-station/">
+                    <picture><source type="image/avif" srcset="/img/Y7OrL-Dnmu-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/Y7OrL-Dnmu-667.jpeg" alt="Light fixtures from an abandoned gas station on I-80." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/highway-140/">
+                    <picture><source type="image/avif" srcset="/img/EqUIVchvdV-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/EqUIVchvdV-667.jpeg" alt="A view down the empty highway with fields and hills on either side." width="667" height="435"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/jefferson-barracks/">
+                    <picture><source type="image/avif" srcset="/img/lNVS_gW5yB-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/lNVS_gW5yB-667.jpeg" alt="Looking across the fields of headstones at Jefferson Barracks National Cemetery." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/seward-fire/">
+                    <picture><source type="image/avif" srcset="/img/2vi-aRvkXA-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/2vi-aRvkXA-667.jpeg" alt="Seward Volunteer Fire Department managing a controlled fire of a house before it gets bulldozed." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/chiu/">
+                    <picture><source type="image/avif" srcset="/img/F2zykLLWf8-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/F2zykLLWf8-667.jpeg" alt="Cheng Yu Chiu wearing a Vietnamese hat" width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/chicago-skyline/">
+                    <picture><source type="image/avif" srcset="/img/2KIUmHv7sR-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/2KIUmHv7sR-667.jpeg" alt="Chicago skyline from the air" width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/holy-family-shrine/">
+                    <picture><source type="image/avif" srcset="/img/l7ShdgYo7X-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/l7ShdgYo7X-667.jpeg" alt="Holy Family Shrine in Gretna, Neb." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/seward-county/">
+                    <picture><source type="image/avif" srcset="/img/jXtzkvPCGR-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/jXtzkvPCGR-667.jpeg" alt="Black and white photo of some fields and trees around Seward County." width="667" height="441"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/carhenge/">
+                    <picture><source type="image/avif" srcset="/img/81rsikmw44-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/81rsikmw44-667.jpeg" alt="Black and white photo of Carhenge in Alliance, Nebraska." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/plum-creek-path/">
+                    <picture><source type="image/avif" srcset="/img/GAIQBrDROE-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/GAIQBrDROE-667.jpeg" alt="Black and white film photo of dandelions along Plum Creek Path" width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/ohare/">
+                    <picture><source type="image/avif" srcset="/img/T4NB7mOoGE-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/T4NB7mOoGE-667.jpeg" alt="A hallway at O&#39;Hare International Airport in Chicago, Ill." width="667" height="444"></picture>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/photo/the-narrows/">
+                    <picture><source type="image/avif" srcset="/img/QWzg11JhF7-667.avif 667w" sizes="75vw"><img loading="lazy" decoding="async" src="/img/QWzg11JhF7-667.jpeg" alt="The Narrows at Zion National Park" width="667" height="1006"></picture>
+                </a>
+            </li>
+        
+    </ul>
+</main>
+<footer class="container container-xl flow">
+    <hr>
+    <p class="font-sm">a project of <a href="https://tedmehl.me">tedmehl.me</a></p>
+</footer>
+</body>
+</html>
