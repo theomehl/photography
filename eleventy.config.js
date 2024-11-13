@@ -41,7 +41,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPreprocessor("drafts", "*", (data) => {
       // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.
       // let adjustedDate = Date.parse(data.page.date) + 18000000;  
-      let adjustedDate = DateTime.fromJSDate(data.page.date, {zone: "utc+12"}).toFormat("yyyy-LL-dd 00:00");
+      let adjustedDate = DateTime.fromJSDate(data.page.date, {zone: "UTC-6"}).toFormat("yyyy-LL-dd 00:00");
       console.log(`${data.title}: Adjusted Date > Date.now(): ${Date.parse(adjustedDate) > Date.now()}
 adjustedDate: ${Date.parse(adjustedDate)}
 Date.now(): ${Date.now()}
