@@ -37,9 +37,11 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./favicon.png");
     eleventyConfig.addPassthroughCopy("./CNAME");
 
+    // Only process pages that don't have a draft variable set to true or are after today's date.
     eleventyConfig.addPreprocessor("drafts", "*", (data) => {
-      // Only process pages that don't have a draft variable set to true or are after today's date.
-      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (Date.parse(data.page.date) > Date.now() && process.env.ELEVENTY_RUN_MODE === "build")) {
+      // Account for central time adjustment in date comparison. Otherwise, dates act as midnight UTC which is 6 p.m. CT the previous day.  
+      let adjustedDate = DateTime.fromJSDate(data.page.date, {zone: "utc"}).toFormat("yyyy-LL-dd 00:00");      
+      if((data.draft && process.env.ELEVENTY_RUN_MODE === "build") || (Date.parse(adjustedDate) > Date.now() && process.env.ELEVENTY_RUN_MODE === "build")) {
         return false;
       }
     });
