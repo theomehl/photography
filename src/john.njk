@@ -10,7 +10,7 @@ description: John's favorite photos.
         {% for john in collections.john | reverse %}    
             <li>
                 <a href="{{john.url}}">
-                    <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" width="{{john.data.width}}" height="{{john.data.height}}" eleventy:widths="667">
+                    <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" eleventy:widths="667">
                 </a>
             </li>
         {% endfor %}
