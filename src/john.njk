@@ -2,12 +2,17 @@
 layout: layouts/base.njk
 title: John's Photos
 description: John's favorite photos. 
+pagination: 
+    data: collections.john
+    size: 20
+    alias: photos
+    reverse: true
 ---
 
 <main class="container container-xl flow">
     <h1 class="font-xl photo-header">{{title}}</h1>
     <ul class="photo-grid">
-        {% for john in collections.john | reverse %}    
+        {% for john in photos %}    
             <li>
                 <a href="{{john.url}}">
                     <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" eleventy:widths="667">
@@ -15,6 +20,34 @@ description: John's favorite photos.
             </li>
         {% endfor %}
     </ul>
+    {% if pagination.hrefs.length > 1 %}
+        <nav aria-labelledby="my-pagination" class="pagination">
+        <h2 id="my-pagination" class="visually-hidden">Pagination</h2>
+        <ul>
+            {% if pagination.href.previous %}
+                <li>
+                    <a href="{{ pagination.href.previous }}">&larr; Previous</a>
+                </li>
+            {% endif %}
+            {%- for pageEntry in pagination.pages %}
+            {% if page.url == pagination.hrefs[ loop.index0 ] %}
+                <li aria-current="page">
+                    {{ loop.index }}
+                </li>
+            {% else %}
+            <li>
+                <a href="{{ pagination.hrefs[ loop.index0 ] }}">{{ loop.index }}</a>
+            </li>
+            {% endif %}
+            {%- endfor %}
+            {% if pagination.href.next %}
+                <li>
+                    <a href="{{ pagination.href.next }}">Next &rarr;</a>
+                </li>
+            {% endif %}
+        </ul>
+        </nav>
+    {% endif %}
 </main>
 <footer class="container container-xl flow">
     <hr>

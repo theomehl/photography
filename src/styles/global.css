@@ -103,6 +103,25 @@ footer a {
     gap: 1rem;
 }
 
+/* Pagination */
+
+.pagination {
+    --flow-space: 2em;
+    --pagination-border-color: var(--gray-400);
+    --pagination-border-width: 1px;
+    --pagination-border-radius: 4px;
+
+    font-variant-numeric: tabular-nums;
+}
+
+.pagination > ul {
+    list-style: "";
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    padding: 0;
+}
 
 /* Header logo */
 
