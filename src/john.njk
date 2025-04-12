@@ -12,10 +12,10 @@ pagination:
 <main class="container container-xl flow">
     <h1 class="font-xl photo-header">{{title}}</h1>
     <ul class="photo-grid">
-        {% for john in photos %}    
+        {% for john in photos %} 
             <li>
                 <a href="{{john.url}}">
-                    <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" eleventy:widths="667">
+                    <img src="/files/{{john.data.imageBase}}/{{john.data.imageBase}}_2000.jpg" alt="{{john.data.alt}}" eleventy:widths="667" {% if loop.index <= 4 %} loading="eager" decoding="sync" {% endif %}>
                 </a>
             </li>
         {% endfor %}
