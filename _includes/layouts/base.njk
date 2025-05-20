@@ -18,6 +18,19 @@
     <link rel="icon" href="/favicon.png">
 </head>
 <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header class="container container-xl">
+        <nav class="nav-list">
+            <a href="/" class="font-md">all photos</a>
+            <ul>
+                <li><a href="/john">john's photos</a></li>
+            </ul>
+        </nav>
+    </header>
     {{content | safe}}
+    <footer class="container container-xl">
+        <hr>
+        <p class="font-sm">a project of <a href="https://tedmehl.me">tedmehl.me</a></p>
+    </footer>
 </body>
 </html>

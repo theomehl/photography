@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 
-<main class="container container-xl flow">
+<main id="main" class="container container-xl flow">
     <div class="image-wrapper flow">
         <img src="/files/{{imageBase}}/{{imageBase}}_2000.jpg" alt="{{alt}}" loading="eager" decoding="sync">
     </div>
@@ -38,7 +38,6 @@ layout: layouts/base.njk
     {% endif %}
    
     {{content | safe}}
-    <hr>
     {% if tags.includes("john") %}
         {% include "john-nav.njk" %}
     {% elseif tags.includes("ted") %}

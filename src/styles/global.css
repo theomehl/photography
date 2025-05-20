@@ -35,6 +35,8 @@ h1 {
 
 a {
     color: var(--link-text);
+    text-decoration-color: var(--blue-300);
+    text-decoration-thickness: 0.2rem;
 }
 
 hr {
@@ -53,6 +55,8 @@ footer> hr {
 
 footer a {
     color: var(--gray-600);
+    text-decoration-color: var(--gray-400);
+    text-decoration-thickness: 0.15em;
 }
 
 /* Skip Link */
