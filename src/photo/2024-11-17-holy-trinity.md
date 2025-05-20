@@ -9,5 +9,6 @@ height: 2000
 imageDate: 1999
 location: Moscow, Russia
 camera: Olympus Stylus Infinity
-metaDescription: Holy Trinity covered in snow, surrounded by cemetery fencing.   
+orientation: portrait
+metaDescription: Holy Trinity covered in snow, surrounded by cemetery fencing.
 ---
