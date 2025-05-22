@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Tahoma Fallback';
+    src: local(Tahoma);
+    size-adjust: 101%;
+    ascent-override: normal;
+    descent-override: normal;
+    line-gap-override: 0%;
+}
+
+@font-face {
     font-family: "Figtree";
     src: url(/fonts/Figtree.woff2) format("woff2");
     font-style: normal;

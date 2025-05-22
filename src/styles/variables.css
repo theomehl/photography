@@ -30,7 +30,7 @@
     --text-4xl: clamp(4.29rem, calc(4.13rem + 0.83vw), 4.77rem);
 
     /* Define font families */
-    --font-base: Figtree, sans-serif; 
+    --font-base: Figtree, 'Tahoma Fallback', sans-serif; 
 
 
     /* Header logo Variables */
