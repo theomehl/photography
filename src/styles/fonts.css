@@ -5,6 +5,7 @@
     ascent-override: normal;
     descent-override: normal;
     line-gap-override: 0%;
+    font-display: swap;
 }
 
 @font-face {
