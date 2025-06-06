@@ -27,6 +27,18 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
 
+      - name: Persist Eleventy .cache
+        uses: actions/cache@v4
+        with:
+          path: ./.cache
+          key: ${{ runner.os }}-eleventy-fetch-cache
+
+      - name: Persist Eleventy Image Output
+        uses: actions/cache@v4
+        with: 
+          path: ./public/img/
+          key: ${{ runner.os }}-eleventy-image-transforms
+
       - run: npm install
       - run: npx @11ty/eleventy 
 
