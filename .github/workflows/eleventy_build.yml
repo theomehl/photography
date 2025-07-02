@@ -6,6 +6,9 @@ on:
   schedule: 
     - cron: "0 11 * * *"
 
+permissions:
+  packages: write
+
 jobs:
   deploy:
     runs-on: ubuntu-22.04
