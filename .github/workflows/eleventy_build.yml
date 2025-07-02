@@ -6,7 +6,8 @@ on:
   schedule: 
     - cron: "0 11 * * *"
 
-permissions: write-all
+permissions:
+  actions: write
 
 jobs:
   deploy:
