@@ -49,6 +49,9 @@ jobs:
         run: |
           gh extension install actions/gh-actions-cache
           gh actions-cache delete "${{ runner.os }}-eleventy-image-transforms" --confirm
+        env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
