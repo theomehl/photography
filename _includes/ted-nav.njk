@@ -12,6 +12,24 @@
             {% endif %}
         {% endif %}
 
-        <li><a href="/ted/" class="next-link">All Photos &uarr;</a></li>
+        <li><a href="/ted/" class="next-link">Ted's Photos &uarr;</a></li>
+        <li><a href="/">All Photos &uarr;</a></li>
     </ul>
+
+    {# <ul class="next-previous-nav">
+
+        {% if collections.photos %}
+        {% set nextPhoto = collections.photos | getNextCollectionItem %}
+        {% set previousPhoto = collections.photos | getPreviousCollectionItem %}
+            {% if nextPhoto %}
+                <li><a href="{{ nextPhoto.url }}">&larr; Previous Photo</a></li>
+            {% endif %}
+            {% if previousPhoto %}
+                <li><a href="{{ previousPhoto.url }}">Next Photo &rarr;</a></li>
+            {% endif %}
+
+        {% endif %}
+
+        <li><a href="/john/" class="next-link">See all photos &uarr;</a></li>
+    </ul> #}
 </nav>
