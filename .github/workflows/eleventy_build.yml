@@ -34,6 +34,7 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - name: Persist Eleventy Image Output
+        id: cache-eleventy-image
         uses: actions/cache@v4
         with: 
           path: ./public/img/
@@ -42,6 +43,12 @@ jobs:
       - run: npm install
       - run: npx @11ty/eleventy 
 
+      - name: Delete Eleventy Image Cache
+        if: ${{ steps.cache-eleventy-image.outputs.cache-hit }}
+        continue-on-error: true
+        run: |
+          gh extension install actions/gh-actions-cache
+          gh actions-cache delete "${{ runner.os }}-eleventy-image-transforms" --confirm
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
