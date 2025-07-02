@@ -51,6 +51,6 @@ export default function(eleventyConfig) {
         input: "src",
         output: "public",
         includes: "../_includes"
-      }
+      } 
     }
   };
