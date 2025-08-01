@@ -15,7 +15,7 @@ pagination:
         {% for photo in photos %} 
             <li>
                 <a href="{{photo.url}}">
-                    <img src="/files/{{photo.data.imageBase}}/{{photo.data.imageBase}}_2000.jpg" alt="{{photo.data.alt}}" {% if photo.data.orientation === "portrait" %} eleventy:widths="500" {% else %} eleventy:widths="667" {% endif %} {% if loop.index <= 4 %} loading="eager" decoding="sync" {% endif %}>
+                    <img src="/files/{{photo.data.imageBase}}/{{photo.data.imageBase}}_2000.jpg" alt="{{photo.data.alt}}" {% if photo.data.orientation === "portrait" %} eleventy:widths="500" {% else %} eleventy:widths="667" {% endif %} {% if loop.index <= 4 %} loading="eager" fetchpriority="high" decoding="sync" {% endif %}>
                 </a>
             </li>
         {% endfor %}
