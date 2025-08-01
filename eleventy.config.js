@@ -19,7 +19,7 @@ export default function(eleventyConfig) {
       defaultAttributes: {
         loading: "lazy",
         decoding: "async",
-        sizes: "75vw",
+        sizes: "50vw",
       }
 
     });
