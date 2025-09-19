@@ -1,7 +1,7 @@
 ---
 title: Sunday BBQ
 tags: john
-image: /files/Sunday_BBQ/Sunday_BBQ_2000.jpg
+image: /files/john/Sunday_BBQ_2000.jpg
 imageBase: Sunday_BBQ
 alt: Crowds of people grilling near the beach on a Sunday afternoon.      
 width: 2000

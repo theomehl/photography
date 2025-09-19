@@ -1,7 +1,7 @@
 ---
 title: Two-Story Garage
 tags: ted
-image: /files/Two_Story_Garage/Two_Story_Garage_2000.jpg
+image: /files/ted/Two_Story_Garage_2000.jpg
 imageBase: Two_Story_Garage
 alt: Two-story garage made from red brick and covered in vines.
 width: 2000

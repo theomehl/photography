@@ -1,7 +1,7 @@
 ---
 title: The Narrows
 tags: john
-image: /files/Narrows/narrows_2000.jpg
+image: /files/john/narrows_2000.jpg
 imageBase: Narrows
 alt: The Narrows at Zion National Park
 width: 1334

@@ -1,7 +1,7 @@
 ---
 title: Jefferson Barracks
 tags: john
-image: /files/Jefferson_Barracks/Jefferson_Barracks_2000.jpg
+image: /files/john/Jefferson_Barracks_2000.jpg
 imageBase: Jefferson_Barracks
 alt: Looking across the fields of headstones at Jefferson Barracks National Cemetery. 
 width: 2000

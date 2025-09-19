@@ -1,7 +1,7 @@
 ---
 title: Celebration
 tags: john
-image: /files/Celebration/Celebration_2000.jpg
+image: /files/john/Celebration_2000.jpg
 imageBase: Celebration
 alt: A group of women from Papua New Guinea playing drums in a celebration.        
 width: 2000

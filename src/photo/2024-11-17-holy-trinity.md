@@ -1,7 +1,7 @@
 ---
 title: Holy Trinity Lutheran
 tags: john
-image: /files/Holy_Trinity/Holy_Trinity_2000.jpg
+image: /files/john/Holy_Trinity_2000.jpg
 imageBase: Holy_Trinity
 alt: Holy Trinity covered in snow, surrounded by cemetery fencing.         
 width: 1343

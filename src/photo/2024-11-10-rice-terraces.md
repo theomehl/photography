@@ -1,7 +1,7 @@
 ---
 title: Rice Terraces
 tags: john
-image: /files/Rice_Terraces/Rice_Terraces_2000.jpg
+image: /files/john/Rice_Terraces_2000.jpg
 imageBase: Rice_Terraces
 alt: Rice terraces in rural China.     
 width: 2000

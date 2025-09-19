@@ -1,7 +1,7 @@
 ---
 title: Chicago
 tags: john
-image: /files/Chicago_Skyline/Chicago_Skyline_2000.jpg
+image: /files/john/Chicago_Skyline_2000.jpg
 imageBase: Chicago_Skyline
 alt: Chicago skyline from the air
 width: 2000

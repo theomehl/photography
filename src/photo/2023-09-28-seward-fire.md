@@ -1,7 +1,7 @@
 ---
 title: Controlled Fire
 tags: john
-image: /files/Seward_Fire/Seward_Fire_2000.jpg
+image: /files/john/Seward_Fire_2000.jpg
 imageBase: Seward_Fire
 alt: Seward Volunteer Fire Department managing a controlled fire of a house before it gets bulldozed. 
 width: 2000

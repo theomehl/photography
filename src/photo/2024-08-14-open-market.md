@@ -1,7 +1,7 @@
 ---
 title: Open Market
 tags: john
-image: /files/Open_Market/Open_Market_2000.jpg
+image: /files/john/Open_Market_2000.jpg
 imageBase: Open_Market
 alt: A man carrying a basket of bottles on his head through a busy marketplace.  
 width: 2000

@@ -1,7 +1,7 @@
 ---
 title: Incense Coils
 tags: john
-image: /files/Incense_Coils/Incense_Coils_2000.jpg
+image: /files/john/Incense_Coils_2000.jpg
 imageBase: Incense_Coils
 alt: Burning incense coils at the Tin Hau Temple       
 width: 2000

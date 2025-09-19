@@ -1,7 +1,7 @@
 ---
 title: Pasture Ground
 tags: john
-image: /files/Pasture_Ground/Pasture_Ground_2000.jpg
+image: /files/john/Pasture_Ground_2000.jpg
 imageBase: Pasture_Ground
 alt: Wide open pasture ground with fluffy clouds and an old style windmill sitting in the middle.          
 width: 2000

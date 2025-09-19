@@ -1,7 +1,7 @@
 ---
 title: Holy Family Shrine
 tags: john
-image: /files/Holy_Family_Shrine/Holy_Family_Shrine_2000.jpg
+image: /files/john/Holy_Family_Shrine_2000.jpg
 imageBase: Holy_Family_Shrine
 alt: Holy Family Shrine in Gretna, Neb.
 width: 2000
