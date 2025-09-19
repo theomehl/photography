@@ -1,0 +1,59 @@
+media: src/files
+content: 
+  - name: photo
+    label: Photos
+    type: collection
+    path: 'src/photo'
+    view: 
+      fields: [ title, date, tags ]
+    fields: 
+      - name: title
+        label: Title
+        type: string
+      - name: tags
+        label: "Who's photo?"
+        type: select
+        options: 
+          values: 
+            - value: john
+              label: John
+            - value: ted
+              label: Ted
+      - name: image
+        label: Image
+        type: image
+      - name: orientation
+        label: Orientation
+        type: select
+        options: 
+          values: [ landscape, portrait ]
+      - name: alt
+        label: 'Describe the image'
+        description: Describe what you see in the image in brief. This is for alt text and accessibility.
+        type: string
+      - name: imageDate
+        label: 'When was this taken?'
+        description: Month (if you know it) and year. E.g. September 2014
+        type: string
+      - name: location
+        label: 'Where was this taken?'
+        description: City and/or state/country. E.g. Hanoi, Vietnam or Lincoln, NE
+        type: string
+      - name: camera
+        label: Camera
+        type: select
+        options: 
+          creatable: true
+          values: [ Argus C3, Canon 5DS, Canon IXUS 860 IS, Canon Powershot SD550, Canon T3i, iPhone 5S, Minolta X370, Olympus Stylus Infinity, Olympux XA2, Ricoh 500 ME, Ricoh GR II ]
+      - name: film
+        label: Film
+        type: select
+        options: 
+          creatable: true
+          values: [ Cinestill 400D, Kentmere 100, Kentmere 400 ]
+      - name: metaDescription
+        label: Meta Description
+        description: Add this if you want the description for this photo to be different from the alt text. 
+        type: string
+          
+            
