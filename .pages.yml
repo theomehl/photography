@@ -46,7 +46,7 @@ content:
         type: select
         options: 
           creatable: true
-          values: [ Argus C3, Canon 5DS, Canon IXUS 860 IS, Canon Powershot SD550, Canon T3i, iPhone 5S, Minolta X370, Olympus Stylus Infinity, Olympux XA2, Ricoh 500 ME, Ricoh GR II ]
+          values: [ Argus C3, Canon 5DS, Canon IXUS 860 IS, Canon Powershot SD550, Canon T3i, iPhone 5S, Minolta X370, Olympus Stylus Infinity, Olympus XA2, Ricoh 500 ME, Ricoh GR II ]
       - name: film
         label: Film
         type: select
