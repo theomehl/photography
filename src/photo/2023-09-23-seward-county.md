@@ -8,6 +8,6 @@ width: 2000
 height: 1323
 imageDate: June 2022
 location: Seward, NE 
-camera: Ricoh GRII
+camera: Ricoh GR II
 metaDescription: Black and white photo of some fields and trees around Seward County.
 ---

@@ -6,6 +6,6 @@ imageBase: Bon_Bon_Cafe
 alt: Little cafe on a street with patrons sitting outside on stools.
 imageDate: June 2007
 location: Hanoi, Vietnam
-camera: Canon Powershot SD 550
+camera: Canon Powershot SD550
 metaDescription: Little cafe on a street with patrons sitting outside on stools.
 ---

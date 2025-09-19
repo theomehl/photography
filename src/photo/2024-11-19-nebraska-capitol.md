@@ -8,6 +8,6 @@ width: 2000
 height: 1332
 imageDate: July 2024
 location: Lincoln, Nebraska
-camera: Canon 5D
+camera: Canon 5DS
 metaDescription: A train yard in the foreground with the Nebraska State Capitol building standing tall in the background.
 ---
