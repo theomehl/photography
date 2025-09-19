@@ -1,4 +1,6 @@
-media: src/files
+media: 
+  input: src/files
+  output: src/files
 content: 
   - name: photo
     label: Photos
