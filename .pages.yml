@@ -1,6 +1,6 @@
 media: 
   input: src/files
-  output: src/files
+  output: /files
 content: 
   - name: photo
     label: Photos
