@@ -1,7 +1,7 @@
 ---
 title: Plum Creek Path
 tags: john
-image: /files/john/Plum_Creek_2000.jpg
+image: src/files/john/Plum_Creek_2000.jpg
 imageBase: Plum_Creek
 alt: Black and white film photo of dandelions along Plum Creek Path
 width: 2000

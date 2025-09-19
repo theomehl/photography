@@ -1,7 +1,7 @@
 ---
 title: Restaurant
 tags: john
-image: /files/john/Kunming_Restaurant_2000.jpg
+image: src/files/john/Kunming_Restaurant_2000.jpg
 imageBase: Kunming_Restaurant
 alt: A restaurant with a square interior main floor with a balcony surrounding it on all sides.    
 width: 2000

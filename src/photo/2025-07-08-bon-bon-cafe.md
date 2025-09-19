@@ -1,7 +1,7 @@
 ---
 title: Bon Bon Cafe
 tags: john
-image: /files/john/Bon_Bon_Cafe_2000.jpg
+image: src/files/john/Bon_Bon_Cafe_2000.jpg
 imageBase: Bon_Bon_Cafe
 alt: Little cafe on a street with patrons sitting outside on stools.
 imageDate: June 2007

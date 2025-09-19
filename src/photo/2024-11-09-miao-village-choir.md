@@ -1,7 +1,7 @@
 ---
 title: Miao Village Choir
 tags: john
-image: /files/john/Miao_Village_Choir_2000.jpg
+image: src/files/john/Miao_Village_Choir_2000.jpg
 imageBase: Miao_Village_Choir
 alt: A group of women singing in the local village choir, holding music folders in front of them.     
 width: 2000

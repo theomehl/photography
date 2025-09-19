@@ -1,7 +1,7 @@
 ---
 title: Church of All Nations
 tags: john
-image: /files/john/Church_of_All_Nations_2000.jpg
+image: src/files/john/Church_of_All_Nations_2000.jpg
 imageBase: Church_of_All_Nations
 alt: Church of All Nations cross tower with the Hong Kong International School Upper Primary building in the background.       
 width: 1333

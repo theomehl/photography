@@ -1,7 +1,7 @@
 ---
 title: American Club
 tags: john
-image: /files/john/American_Club_2000.jpg
+image: src/files/john/American_Club_2000.jpg
 imageBase: American_Club
 alt: A view overlooking Tai Tam Bay with the American Club in the foreground.
 width: 2000

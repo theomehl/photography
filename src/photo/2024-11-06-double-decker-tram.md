@@ -1,7 +1,7 @@
 ---
 title: Double Decker Tram
 tags: john
-image: /files/john/Double_Decker_Tram_2000.jpg
+image: src/files/john/Double_Decker_Tram_2000.jpg
 imageBase: Double_Decker_Tram
 alt: A double decker tram winding through the streets of downtown Hong Kong.  
 width: 2000

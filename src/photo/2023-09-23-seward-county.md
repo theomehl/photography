@@ -1,7 +1,7 @@
 ---
 title: Seward County Nebraska
 tags: john
-image: /files/john/Plum_Creek_3_2000.jpg
+image: src/files/john/Plum_Creek_3_2000.jpg
 imageBase: Plum_Creek_3
 alt: Black and white photo of some fields and trees around Seward County.
 width: 2000
