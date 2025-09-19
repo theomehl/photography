@@ -55,5 +55,9 @@ content:
         label: Meta Description
         description: Add this if you want the description for this photo to be different from the alt text. 
         type: string
+      - name: date
+        label: Publish Date
+        type: date
+        description: Set this date if you want to schedule a photo to be published in the future. 
           
             
