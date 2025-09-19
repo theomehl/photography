@@ -1,7 +1,7 @@
 ---
 title: Two-Story Garage
 tags: ted
-image: src/files/ted/Two_Story_Garage_2000.jpg
+image: /files/ted/Two_Story_Garage_2000.jpg
 alt: Two-story garage made from red brick and covered in vines.
 imageDate: "'2023'"
 location: Seward, NE
