@@ -1,7 +1,7 @@
 ---
 title: Son of Man Be Free
 tags: john
-image: src/files/john/Foggy_Son_of_Man_Be_Free_2000.jpg
+image: /files/john/Foggy_Son_of_Man_Be_Free_2000.jpg
 imageBase: Foggy_Son_of_Man_Be_Free
 alt: Close up of the Son of Man Be Free statue with Weller tower faintly visible in the morning fog.      
 width: 2000

@@ -1,7 +1,7 @@
 ---
 title: Nebraska Capitol
 tags: john
-image: src/files/john/Nebraska_Capitol_2000.jpg
+image: /files/john/Nebraska_Capitol_2000.jpg
 imageBase: Nebraska_Capitol
 alt: A train yard in the foreground with the Nebraska State Capitol building standing tall in the background.          
 width: 2000

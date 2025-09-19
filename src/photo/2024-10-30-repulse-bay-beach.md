@@ -1,7 +1,7 @@
 ---
 title: Repulse Bay Beach
 tags: john
-image: src/files/john/Repulse_Bay_Beach_2000.jpg
+image: /files/john/Repulse_Bay_Beach_2000.jpg
 imageBase: Repulse_Bay_Beach
 alt: Repulse Bay with heavy cloud cover on the mountain behind.  
 width: 2000

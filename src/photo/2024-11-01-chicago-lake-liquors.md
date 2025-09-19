@@ -1,7 +1,7 @@
 ---
 title: Chicago Lake Liquors
 tags: john
-image: src/files/john/Chicago_Lake_Liquors_2000.jpg
+image: /files/john/Chicago_Lake_Liquors_2000.jpg
 imageBase: Chicago_Lake_Liquors
 alt: Chicago Lake Liquors store with flags topping the building.  
 width: 2000

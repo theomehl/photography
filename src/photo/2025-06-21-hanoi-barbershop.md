@@ -1,7 +1,7 @@
 ---
 title: Barbershop
 tags: john
-image: src/files/john/Hanoi_Barbershop_2000.jpg
+image: /files/john/Hanoi_Barbershop_2000.jpg
 imageBase: Hanoi_Barbershop
 alt: A barber working on the street, mirror strapped to a nearby tree.
 imageDate: May 2007

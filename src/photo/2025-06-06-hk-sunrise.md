@@ -1,7 +1,7 @@
 ---
 title: Hong Kong Sunrise
 tags: john
-image: src/files/john/HK_Sunrise_2000.jpg
+image: /files/john/HK_Sunrise_2000.jpg
 imageBase: HK_Sunrise
 alt: Sunrise over the islands of Hong Kong, with the city center in the distance. 
 imageDate: May 2025

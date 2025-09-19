@@ -1,7 +1,7 @@
 ---
 title: Immanuel Middle Creek
 tags: john
-image: src/files/john/Immanuel_Middle_Creek_2000.jpg
+image: /files/john/Immanuel_Middle_Creek_2000.jpg
 imageBase: Immanuel_Middle_Creek
 alt: Low rolling hills and puffy white clouds with Immanuel Lutheran Church sticking up out of the center. 
 width: 2000

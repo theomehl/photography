@@ -1,7 +1,7 @@
 ---
 title: Eads Bridge
 tags: john
-image: src/files/john/Eads_Bridge_2000.jpg
+image: /files/john/Eads_Bridge_2000.jpg
 imageBase: Eads_Bridge
 alt: Looking at Eads Bridge from the St. Louis Riverfront 
 width: 2000

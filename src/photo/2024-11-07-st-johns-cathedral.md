@@ -1,7 +1,7 @@
 ---
 title: St. John's Cathedral
 tags: john
-image: src/files/john/St_Johns_Cathedral_2000.jpg
+image: /files/john/St_Johns_Cathedral_2000.jpg
 imageBase: St_Johns_Cathedral
 alt: Inside St. John's Cathedral, with a few people sitting quietly in the pews.  
 width: 2000

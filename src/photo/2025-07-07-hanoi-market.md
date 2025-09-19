@@ -1,7 +1,7 @@
 ---
 title: Hanoi Market
 tags: john
-image: src/files/john/Hanoi_Market_2000.jpg
+image: /files/john/Hanoi_Market_2000.jpg
 imageBase: Hanoi_Market
 alt: Vendors on a street corner, selling vegetables.
 imageDate: June 2007

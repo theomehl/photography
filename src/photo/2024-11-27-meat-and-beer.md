@@ -1,7 +1,7 @@
 ---
 title: Meat & Beer
 tags: john
-image: src/files/john/Meat_and_Beer_2000.jpg
+image: /files/john/Meat_and_Beer_2000.jpg
 imageBase: Meat_and_Beer
 alt: Local grocery store with a large sign on top of the building that says "Meat and Beer"
 width: 2000
