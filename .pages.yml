@@ -36,7 +36,7 @@ content:
       - name: imageDate
         label: 'When was this taken?'
         description: Month (if you know it) and year. E.g. September 2014
-        type: text
+        type: string
       - name: location
         label: 'Where was this taken?'
         description: City and/or state/country. E.g. Hanoi, Vietnam or Lincoln, NE
