@@ -12,6 +12,7 @@ content:
       - name: title
         label: Title
         type: string
+        required: true
       - name: tags
         label: "Who's photo?"
         type: select
@@ -21,9 +22,11 @@ content:
               label: John
             - value: ted
               label: Ted
+        require: true
       - name: image
         label: Image
         type: image
+        required: true
       - name: orientation
         label: Orientation
         type: select
@@ -33,6 +36,7 @@ content:
         label: 'Describe the image'
         description: Describe what you see in the image in brief. This is for alt text and accessibility.
         type: string
+        required: true
       - name: imageDate
         label: 'When was this taken?'
         description: Month (if you know it) and year. E.g. September 2014
