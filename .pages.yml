@@ -22,7 +22,7 @@ content:
               label: John
             - value: ted
               label: Ted
-        require: true
+        required: true
       - name: image
         label: Image
         type: image
