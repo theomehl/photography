@@ -11,3 +11,4 @@ location: Seward, NE
 camera: Olympus XA2
 film: Cinestill 400D
 metaDescription: Two-story garage made from red brick and covered in vines.
+---
