@@ -59,7 +59,7 @@ content:
           values: [ Cinestill 400D, Kentmere 100, Kentmere 400 ]
       - name: metaDescription
         label: Meta Description
-        description: Add this if you want the description for this photo to be different from the alt text. 
+        description: Add this if you want the page description to be different from the alt text. 
         type: string
       - name: date
         label: Publish Date
