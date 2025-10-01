@@ -1,5 +1,5 @@
 ---
-title: Bring Your Chair Bus Stop
+title: Bring A Chair Bus Stop
 tags: john
 image: /files/john/Bus stop.jpg
 orientation: landscape
