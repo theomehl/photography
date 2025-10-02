@@ -7,5 +7,6 @@ alt: Man sitting at bus stop with a variety of indoor chairs lined up under the
   canopy.
 imageDate: May 2013
 location: Stanley, Hong Kong SAR
+camera: Canon T3i
 date: 2025-10-01
 ---
