@@ -1,7 +1,7 @@
 ---
 title: Dugout Canoes
 tags: john
-image: /files/john/Dugouts.jpg
+image: /files/john/Dugouts (1).jpg
 orientation: landscape
 alt: "Three dugout canoes crossing a stream. "
 imageDate: March 2011
