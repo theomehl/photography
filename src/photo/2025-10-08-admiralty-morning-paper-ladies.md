@@ -7,5 +7,5 @@ alt: "Three dugout canoes crossing a stream. "
 imageDate: March 2011
 location: Papua New Guinea
 camera: Nikon D5000
-date: 2025-10-08
+date: 2025-10-13
 ---
