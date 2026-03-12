@@ -1,5 +1,5 @@
 ---
-title: Lao Fang 21
+title: Lao Fang Zi
 tags: john
 image: /files/john/Kunming_Restaurant_2000.jpg
 alt: A restaurant with a square interior main floor with a balcony surrounding
