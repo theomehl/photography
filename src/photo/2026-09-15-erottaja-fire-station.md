@@ -6,5 +6,6 @@ orientation: portrait
 alt: "Brick fire station with tower in Finnish architecture "
 imageDate: July 1997
 location: Helsinki, Finnland
+film: Konica VX200
 date: 2026-09-15
 ---
