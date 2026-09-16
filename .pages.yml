@@ -56,7 +56,7 @@ content:
         type: select
         options: 
           creatable: true
-          values: [ Cinestill 400D, Kentmere 100, Kentmere 400 ]
+          values: [ Cinestill 400D, Kentmere 100, Kentmere 400, Konica VX200 ]
       - name: metaDescription
         label: Meta Description
         description: Add this if you want the page description to be different from the alt text. 
