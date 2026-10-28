@@ -1,5 +1,5 @@
 ---
-title: Church of All Nations Lutheran
+title: Church of All Nations, Lutheran
 tags: john
 image: /files/john/Church_of_All_Nations_2000.jpg
 orientation: portrait
