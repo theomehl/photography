@@ -1,5 +1,5 @@
 ---
-title: Bert's Tavern
+title: '"We Only Look Expensive!"'
 tags: john
 image: /files/Bert's Tavern (1).jpg
 orientation: landscape
